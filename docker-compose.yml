@@ -1,0 +1,8 @@
+---
+services:
+  rss-discord-notifier:
+    build: .
+    volumes:
+      - ./config.yaml:/app/config.yaml
+      - ./sent_items.json:/app/sent_items.json
+    container_name: rss-discord-notifier

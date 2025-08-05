@@ -1,0 +1,55 @@
+# Default webhook URL to use if a feed doesn't specify its own
+default_webhook: "https://discord.com/api/webhooks/1402328026439483514/789RHI0aLIDglX9nRx-bF9FGUvH-LRQ1w4BKmeknXVQYoCNHril03kMOrd9WS4EpSXxI"
+
+rate_limit_delay: 0.5 #seconds delay between messages to avoid hitting rate limits
+
+batch_size: 5    # Number of entries to send in a single Discord message
+
+# List your feeds here
+feeds:
+#------------------------------------------------------------------
+# Tech News Feeds
+#------------------------------------------------------------------''
+  - name: "TechCrunch"
+    url: "https://techcrunch.com/feed/"
+    webhook: "https://discord.com/api/webhooks/1402326018953314355/T7RzwzpY1yb0Pg26o1zBlQGYs-SHpgLKSARYnNgsZv4Rb9XQ3sx7d3DKwxS7rYrbpTuI"
+    keywords:
+      - "AI"
+      - "Startup"
+  - name: "Bleeping Computer"
+    url: "https://www.bleepingcomputer.com/feed/"
+    webhook: "https://discord.com/api/webhooks/1402326018953314355/T7RzwzpY1yb0Pg26o1zBlQGYs-SHpgLKSARYnNgsZv4Rb9XQ3sx7d3DKwxS7rYrbpTuI"
+    
+  - name: "The Verge"
+    url: "http://theverge.com/rss/index.html"
+    webhook: "https://discord.com/api/webhooks/1402326018953314355/T7RzwzpY1yb0Pg26o1zBlQGYs-SHpgLKSARYnNgsZv4Rb9XQ3sx7d3DKwxS7rYrbpTuI"
+
+  - name: "The Medium - Engineering"
+    url: "https://medium.com/feed/medium-eng"
+    webhook: "https://discord.com/api/webhooks/1402326018953314355/T7RzwzpY1yb0Pg26o1zBlQGYs-SHpgLKSARYnNgsZv4Rb9XQ3sx7d3DKwxS7rYrbpTuI"
+  
+  - name: "Reddit Linux"
+    url: "https://www.reddit.com/r/linux/.rss"
+    webhook: "https://discord.com/api/webhooks/1402326018953314355/T7RzwzpY1yb0Pg26o1zBlQGYs-SHpgLKSARYnNgsZv4Rb9XQ3sx7d3DKwxS7rYrbpTuI"
+    keywords:
+      - "kernel"
+      - "ubuntu"
+#------------------------------------------------------------------
+# NBA Feeds
+#------------------------------------------------------------------
+  - name: "ESPN"
+    url: "https://www.espn.com/espn/rss/nba/news"
+    webhook: "https://discord.com/api/webhooks/1402374372756422808/I-21l11JSasNtmjpMfgrPYIuZbXLc1pQwUSA-p8g-1sKOqUQbXwD25s4A2qK8ns4Z5Pp"
+
+#------------------------------------------------------------------
+# YouTube Channels
+#------------------------------------------------------------------
+  - name: "Paulie B"
+    url: "https://www.youtube.com/feeds/videos.xml?channel_id=UCAS6u29fObpCHYgHQCGaSUQ"
+    webhook: "https://discord.com/api/webhooks/1402328647477624922/OczakubF2Fky94yJ80MvquBRlPHlKcAzscdSDkrnH-6RQhOS9RASQyxXVxoySLKd4qtI"
+    keywords: []  # Empty means no filter; post all new videos
+
+  - name: "Willem Verbeeck"
+    url: "https://www.youtube.com/feeds/videos.xml?channel_id=UCIvTu9cuf-NZFzHPJZPH23Q"
+    webhook: "https://discord.com/api/webhooks/1402328647477624922/OczakubF2Fky94yJ80MvquBRlPHlKcAzscdSDkrnH-6RQhOS9RASQyxXVxoySLKd4qtI"
+    keywords: []  # Empty means no filter; post all new videos
