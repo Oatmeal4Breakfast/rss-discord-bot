@@ -1,4 +1,4 @@
-#H2 📰 RSS to Discord Webhook Notifier
+## 📰 RSS to Discord Webhook Notifier
 
 This is a lightweight Python tool that monitors RSS feeds and sends **batched updates** to specified Discord webhooks using **embeds**. Designed for self-hosting, the tool supports:
 
@@ -11,7 +11,7 @@ This is a lightweight Python tool that monitors RSS feeds and sends **batched up
 
 ---
 
-#H2 🔧 How It Works
+## 🔧 How It Works
 
 1. You define RSS feeds and corresponding Discord webhooks in `config.yaml`.
 2. The tool checks each feed and parses the most recent items.
@@ -21,11 +21,11 @@ This is a lightweight Python tool that monitors RSS feeds and sends **batched up
 
 ---
 
-#H2 📦 Configuration
+## 📦 Configuration
 
 All configuration is stored in a human-readable `config.yaml` file at the project root.
 
-#H3 Example:
+### Example:
 
 ```yaml
 feeds:
@@ -44,15 +44,15 @@ max_items_per_feed: 100       # Max number of sent item IDs to keep per feed
 
 ---
 
-#h2 🚀 Usage
+## 🚀 Usage
 
-#h3 1. **Install Requirements**
+### 1. **Install Requirements**
 
 ```bash
 pip install -r requirements.txt
 ```
 
-#h3 2. **Run Manually**
+### 2. **Run Manually**
 
 ```bash
 python main.py
@@ -60,9 +60,9 @@ python main.py
 
 ---
 
-#h2 🐳 Docker
+## 🐳 Docker
 
-#h3 Dockerfile Included!
+### Dockerfile Included!
 
 You can build and run the tool in Docker:
 
@@ -70,7 +70,7 @@ You can build and run the tool in Docker:
 docker build -t rss-discord-bot .
 ```
 
-#h3 Recommended Docker Run
+### Recommended Docker Run
 
 ```bash
 docker run -d \
@@ -86,11 +86,11 @@ This ensures:
 
 ---
 
-#h2 ⏱ Automating with Cron
+## ⏱ Automating with Cron
 
 You can schedule it to run every few hours using cron (outside or inside Docker):
 
-#h3 Example (Every 6 Hours):
+### Example (Every 6 Hours):
 
 ```cron
 0 */6 * * * docker exec rss-discord python main.py >> rss-discord.log 2>&1
@@ -104,7 +104,7 @@ Or outside Docker:
 
 ---
 
-#h2 🧠 How Duplication Is Prevented
+## 🧠 How Duplication Is Prevented
 
 The tool stores a lightweight JSON file (`sent_items.json`) which tracks the latest sent items **per feed**. To limit file size, it keeps only the most recent `max_items_per_feed` entries per feed (default: 100).
 
@@ -112,13 +112,13 @@ This file is updated safely after each successful run.
 
 ---
 
-#h2 📺 YouTube Thumbnails
+## 📺 YouTube Thumbnails
 
 When the feed is a YouTube channel, the tool will **extract and embed the video thumbnail** automatically in the Discord embed.
 
 ---
 
-#h2 📁 Project Structure
+## 📁 Project Structure
 
 ```
 .
@@ -134,7 +134,7 @@ When the feed is a YouTube channel, the tool will **extract and embed the video 
 
 ---
 
-#h2 ✅ Features in Use
+## ✅ Features in Use
 
 - `feedparser` – RSS feed parsing
 - `requests` – Sending Discord webhooks
@@ -145,7 +145,7 @@ When the feed is a YouTube channel, the tool will **extract and embed the video 
 
 ---
 
-#h2 🔒 Security Considerations
+## 🔒 Security Considerations
 
 - Your `config.yaml` file contains sensitive Discord webhook URLs.  
   **Do not commit or share this file publicly.**
@@ -153,7 +153,7 @@ When the feed is a YouTube channel, the tool will **extract and embed the video 
 
 ---
 
-#h2 🛠 Contributing
+## 🛠 Contributing
 
 Feel free to fork and improve! PRs welcome for:
 - Better formatting
