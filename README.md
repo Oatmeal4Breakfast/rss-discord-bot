@@ -46,18 +46,24 @@ max_items_per_feed: 100       # Max number of sent item IDs to keep per feed
 
 ## 🚀 Usage
 
-### 1. **Install Requirements**
+This project uses [Poetry](https://python-poetry.org/) for dependency management.
 
-```bash
-pip install -r requirements.txt
-```
+1. **Install Poetry** (if you don't have it yet):
 
-### 2. **Run Manually**
+   ```bash
+   curl -sSL https://install.python-poetry.org | python3 -
 
-```bash
-python main.py
-```
+2. **Install dependencies**
+  ```bash
+    poetry install
 
+3. **Activate the virtual environment (optional but recommended):**
+  ```bash
+    poetry shell
+
+4. **Run the bot**
+  ```bash
+    poetry run python main.py
 ---
 
 ## 🐳 Docker
