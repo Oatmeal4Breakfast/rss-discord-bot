@@ -15,7 +15,12 @@
     "https://techcrunch.com/?p=3034101",
     "https://techcrunch.com/?p=3033780",
     "https://techcrunch.com/?p=3034434",
-    "https://techcrunch.com/?p=3034340"
+    "https://techcrunch.com/?p=3034340",
+    "https://techcrunch.com/?p=3034683",
+    "https://techcrunch.com/?p=3034433",
+    "https://techcrunch.com/?p=3034583",
+    "https://techcrunch.com/?p=3034606",
+    "https://techcrunch.com/?p=3034479"
   ],
   "Bleeping Computer": [
     "https://www.bleepingcomputer.com/news/security/the-heat-wasnt-just-outside-cyber-attacks-spiked-in-summer-2025/",
@@ -32,7 +37,12 @@
     "https://www.bleepingcomputer.com/news/security/mozilla-warns-of-phishing-attacks-targeting-add-on-developers/",
     "https://www.bleepingcomputer.com/news/security/adobe-issues-emergency-fixes-for-aem-forms-zero-days-after-pocs-released/",
     "https://www.bleepingcomputer.com/news/security/pandora-confirms-data-breach-amid-ongoing-salesforce-data-theft-attacks/",
-    "https://www.bleepingcomputer.com/news/security/pbs-confirms-data-breach-after-employee-info-leaked-on-discord-servers/"
+    "https://www.bleepingcomputer.com/news/security/pbs-confirms-data-breach-after-employee-info-leaked-on-discord-servers/",
+    "https://www.bleepingcomputer.com/news/security/new-ghost-calls-tactic-abuses-zoom-and-microsoft-teams-for-c2-operations/",
+    "https://www.bleepingcomputer.com/news/security/hacker-extradited-to-us-for-stealing-33-million-from-taxpayers/",
+    "https://www.bleepingcomputer.com/news/security/mfa-matters-but-it-isnt-enough-on-its-own/",
+    "https://www.bleepingcomputer.com/news/security/google-suffers-data-breach-in-ongoing-salesforce-data-theft-attacks/",
+    "https://www.bleepingcomputer.com/news/technology/national-bank-of-canada-online-systems-down-due-to-technical-issue/"
   ],
   "The Medium - Engineering": [
     "https://medium.com/p/273d97ce1ced",
@@ -67,7 +77,8 @@
     "https://www.reddit.com/r/linux/t3_1mi110h",
     "https://www.reddit.com/r/linux/t3_1mihlju",
     "https://www.reddit.com/r/linux/t3_1mhl7gf",
-    "https://www.reddit.com/r/linux/t3_1mh3q7z"
+    "https://www.reddit.com/r/linux/t3_1mh3q7z",
+    "https://www.reddit.com/r/linux/t3_1mj0oz1"
   ],
   "ESPN": [
     "US-EN-45899364",
@@ -79,7 +90,12 @@
     "US-EN-45859355",
     "US-EN-45909490",
     "US-EN-45889099",
-    "US-EN-45519132"
+    "US-EN-45519132",
+    "US-EN-45900688",
+    "US-EN-45861453",
+    "US-EN-45914329",
+    "US-EN-45910188",
+    "US-EN-45909702"
   ],
   "Willem Verbeeck": [
     "yt:video:ICqMArJnRYM",
@@ -91,6 +107,53 @@
     "yt:video:yXixiDBZ5UE",
     "yt:video:gG-TGwWp3mo",
     "yt:video:dujbrD8pCKE",
-    "yt:video:bYKyR1smJUA"
+    "yt:video:bYKyR1smJUA",
+    "yt:video:PbbKriiEeI4",
+    "yt:video:ct4a89JIIkI",
+    "yt:video:nJQsmRcIJdw",
+    "yt:video:Ss1L7SaMnAU",
+    "yt:video:Whf-VxXvkhE"
+  ],
+  "r/sysadmin": [
+    "https://www.reddit.com/r/sysadmin/t3_1mh9bbq",
+    "https://www.reddit.com/r/sysadmin/t3_1luf1ql",
+    "https://www.reddit.com/r/sysadmin/t3_1mj4yb2",
+    "https://www.reddit.com/r/sysadmin/t3_1mj3qub",
+    "https://www.reddit.com/r/sysadmin/t3_1mih39w"
+  ],
+  "r/analog": [
+    "https://www.reddit.com/r/analog/t3_1mgzxzr",
+    "https://www.reddit.com/r/analog/t3_1mehmjm",
+    "https://www.reddit.com/r/analog/t3_1mj5kl3",
+    "https://www.reddit.com/r/analog/t3_1mj6bzc",
+    "https://www.reddit.com/r/analog/t3_1miv08h"
+  ],
+  "r/analogcommunity": [
+    "https://www.reddit.com/r/analogcommunity/t3_1ln3vgw",
+    "https://www.reddit.com/r/analogcommunity/t3_1ikehmb",
+    "https://www.reddit.com/r/analogcommunity/t3_1mj6epq",
+    "https://www.reddit.com/r/analogcommunity/t3_1mj1x4p",
+    "https://www.reddit.com/r/analogcommunity/t3_1miwn46"
+  ],
+  "r/selfhosted": [
+    "https://www.reddit.com/r/selfhosted/t3_bsp01i",
+    "https://www.reddit.com/r/selfhosted/t3_1m67csm",
+    "https://www.reddit.com/r/selfhosted/t3_1mj26vd",
+    "https://www.reddit.com/r/selfhosted/t3_1miwk44",
+    "https://www.reddit.com/r/selfhosted/t3_1mimb0n"
+  ],
+  "Kyle McDougall": [
+    "yt:video:Z-wL7ixxE6I",
+    "yt:video:lJgRPNVLmgw",
+    "yt:video:tvGW5vd8XXs",
+    "yt:video:m38vc2b7ZBk",
+    "yt:video:LsM8BYa4Bps"
+  ],
+  "Michael Burns": [
+    "yt:video:JrnOxlUiPDM",
+    "yt:video:Kk_O1rdN6yg",
+    "yt:video:xENxXCFlOg4",
+    "yt:video:_4k26xGx1zI",
+    "yt:video:4IT9-zDJFBM"
   ]
 }

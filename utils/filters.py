@@ -1,4 +1,24 @@
 from typing import List
+from datetime import datetime
+from email.utils import parsedate_to_datetime
+
+
+def filter_entries_by_published_today(entries):
+    today = datetime.utcnow().date()
+    result = []
+
+    for entry in entries:
+        pub_date = entry.get("published") or entry.get("updates")
+        if not pub_date:
+            continue
+
+        try:
+            entry_date = parsedate_to_datetime(pub_date).date()
+            if entry_date == today:
+                result.append(entry)
+        except:
+            continue
+    return result
 
 def filter_entries_by_keywords(entries: list, keywords: List[str]) -> list:
     """Return entries that match any of the given keywords in the title or summary."""

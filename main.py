@@ -1,7 +1,7 @@
 import yaml
 import os
 from feeds.feed_handler import fetch_feed_entries
-from utils.filters import filter_entries_by_keywords, get_entry_id
+from utils.filters import filter_entries_by_keywords, get_entry_id, filter_entries_by_published_today
 from discord.webhook_sender import send_discord_batch
 from utils.storage import load_sent_items, save_sent_items, prune_sent_items
 
@@ -32,7 +32,9 @@ def main():
 
         # Filter by keyword
         filtered_entries = filter_entries_by_keywords(entries, keywords)
-
+        if config.get("filter_by_today", False):
+            filtered_entries = filter_entries_by_published_today(filtered_entries)
+            
         # Filter out already sent entries
         new_entries = [
             entry for entry in filtered_entries
