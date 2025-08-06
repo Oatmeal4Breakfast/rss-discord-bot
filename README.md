@@ -52,21 +52,25 @@ This project uses [Poetry](https://python-poetry.org/) for dependency management
 
    ```bash
    curl -sSL https://install.python-poetry.org | python3 -
+   ```
 
 2. **Install dependencies**
 
   ```bash
    poetry install
+  ```
 
 3. **Activate the virtual environment (optional but recommended):**
 
   ```bash
    poetry shell
+  ```
 
 4. **Run the bot**
 
   ```bash
    poetry run python main.py
+  ```
 
   
 ---
