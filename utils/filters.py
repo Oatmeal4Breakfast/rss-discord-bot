@@ -8,16 +8,22 @@ def filter_entries_by_published_today(entries):
     result = []
 
     for entry in entries:
-        pub_date = entry.get("published") or entry.get("updates")
-        if not pub_date:
-            continue
+        if "published_parsed" in entry:
+            entry_date = datetime(*entry["published_parsed"][:6]).date()
+        elif "updated_parsed" in entry:
+            entry_date = datetime(*entry["updated_parsed"][:6]).date()
+        else:
+            pub_date = entry.get("published") or entry.get("updated")
 
-        try:
-            entry_date = parsedate_to_datetime(pub_date).date()
-            if entry_date == today:
-                result.append(entry)
-        except:
-            continue
+            if not pub_date:
+                continue
+            try:
+                entry_date = parsedate_to_datetime(pub_date).date()
+            except Exception:
+                continue
+            
+        if entry_date == today:
+            result.append()
     return result
 
 def filter_entries_by_keywords(entries: list, keywords: List[str]) -> list:
