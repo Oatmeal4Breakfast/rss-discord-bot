@@ -49,10 +49,10 @@ max_items_per_feed: 100       # Max number of sent item IDs to keep per feed
 This project uses [Poetry](https://python-poetry.org/) for dependency management.
 
 1. **Install Poetry** (if you don't have it yet):
-
-   ```bash
+  
+  ```bash
    curl -sSL https://install.python-poetry.org | python3 -
-   ```
+  ```
 
 2. **Install dependencies**
 
