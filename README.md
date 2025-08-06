@@ -56,17 +56,19 @@ This project uses [Poetry](https://python-poetry.org/) for dependency management
 2. **Install dependencies**
 
   ```bash
-    poetry install
+   poetry install
 
 3. **Activate the virtual environment (optional but recommended):**
 
   ```bash
-    poetry shell
+   poetry shell
 
 4. **Run the bot**
 
   ```bash
-    poetry run python main.py
+   poetry run python main.py
+
+  
 ---
 
 ## 🐳 Docker
